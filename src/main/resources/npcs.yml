@@ -1,0 +1,44 @@
+
+npcs:
+
+  bob:
+    name: "&fBob"
+    actions:
+      ifhascobble:
+        type: "ifhasresource"
+        resource: "cobblestone"
+        count: 64
+        actions:
+          canihas:
+            type: "question"
+            question: "&fCan I have 64 cobblestone?"
+            labels:
+              yes: "&a&lYes"
+              no: "&c&lNo"
+            options:
+              yes:
+                takeit:
+                  type: "take"
+                  resource: "cobblestone"
+                  count: 64
+                thxbud:
+                  type: "speak"
+                  text: "&fThanks, bud!"
+              no:
+                SADNESS:
+                  type: "speak"
+                  text: "&f:("
+#          takecobble:
+#            type: "take"
+#            resource: "cobblestone"
+#            count: 64
+#          saythanks:
+#            type: "speak"
+#            text: "&fThanks for the cobblestone!"
+        else:
+          hi:
+            type: "speak"
+            text: "&fHello, I am Bob!"
+          plsgivcobble:
+            type: "speak"
+            text: "&fPlease bring me 64 cobblestone!"

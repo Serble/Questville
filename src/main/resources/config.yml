@@ -1,0 +1,10 @@
+version: 1.0
+enabled-worlds:
+  worlds:
+    - questville
+  is-blacklist: false
+
+death-actions:
+  money-loss: 0 # In coins
+  money-percent-loss: 0 # In percent
+  resource-loss-percent: 0 # In percent

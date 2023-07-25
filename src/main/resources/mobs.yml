@@ -1,0 +1,28 @@
+mobs:
+  zombie:
+    type: "ZOMBIE"
+    name: "Zombie"
+    health: 20
+    damage: 5
+    weapon: "stone_sword"
+    helmet: "none"
+    chestplate: "none"
+    leggings: "none"
+    boots: "none"
+    rewards:
+      money: 1
+      items:
+        - "cobblestone"
+      chance:
+        sword:
+          percent: 10
+          item: "stone_sword"
+
+areas:
+  coal-mine:
+    world: "questville"
+    pos1: "0,0,0"
+    pos2: "0,0,0"
+    mobs:
+      - "zombie"
+    max-mobs: 10

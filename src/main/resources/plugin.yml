@@ -1,0 +1,13 @@
+name: Questville
+main: net.serble.questville.Questville
+version: 1.0
+author: CoPokBl
+api-version: 1.13
+depend:
+#  - SerbleNetworkPlugin
+  - CustomBreaks
+
+commands:
+  questville:
+    description: Questville command
+    permission: questville.command

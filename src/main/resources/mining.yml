@@ -1,0 +1,14 @@
+drops:
+  stone:
+    type: "STONE"
+    resource: "cobblestone"
+    break-type: "stone"
+  coal:
+    type: "COAL_ORE"
+    resource: "cobblestone"
+    break-type: "ore"
+    money: 1
+  oak_log:
+    type: "OAK_LOG"
+    resource: "log"
+    break-type: "tree"
